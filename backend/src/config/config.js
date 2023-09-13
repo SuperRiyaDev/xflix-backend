@@ -4,6 +4,6 @@ const config = {}
 dotenv.config({ path: path.join(__dirname, '../../.env')});
 
 config.backend_port = process.env.BACKEND_PORT;
-config.db_url = process.env.DB_URI;
+config.db_url = process.env.DB_URI2;
 
 module.exports = config;
