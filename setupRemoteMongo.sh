@@ -1,0 +1,2 @@
+# Setup file template to upload data to MongoDB Atlas ----to create a commit
+mongoimport --uri "mongodb://ac-waxmfhr-shard-00-00.3blupko.mongodb.net:27017,ac-waxmfhr-shard-00-01.3blupko.mongodb.net:27017,ac-waxmfhr-shard-00-02.3blupko.mongodb.net:27017/xflix?replicaSet=atlas-gk1bhk-shard-0" --ssl --authenticationDatabase admin --username riyanadutta22 --password riyanaXFlix --drop --collection user --file data/data.json
